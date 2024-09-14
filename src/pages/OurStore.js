@@ -239,6 +239,7 @@ const OurStore = () => {
                     <select
                       name=""
                       defaultValue={"manual"}
+                      //
                       className="form-control form-select"
                       id=""
                     >
