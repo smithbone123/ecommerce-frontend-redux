@@ -238,13 +238,14 @@ const OurStore = () => {
                     </p>
                     <select
                       name=""
-                      defaultValue={"DEFAULT"}
+                      // defaultValue={"DEFAULT"}
+                      defaultValue={"manual"}
                       className="form-control form-select"
                       id=""
                     >
-                      <option disabled value="DEFAULT">
+                      {/* <option disabled value="DEFAULT">
                         Select
-                      </option>
+                      </option> */}
                       <option value="manual">Featured</option>
                       <option value="best-selling">Best Selling</option>
                       <option value="title-ascending">
