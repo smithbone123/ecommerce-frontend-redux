@@ -23,7 +23,8 @@ const ProductCard = (props) => {
         } `}
       >
         <Link
-          to={`${location.pathname === "/" ? "product/:id" : "product/:id"}`}
+          // to={`${location.pathname === "/" ? "product/:id" : "product/:id"}`}
+          to="/"
           className="product-card position-relative"
         >
           {/* wishlist icon */}
@@ -85,7 +86,8 @@ const ProductCard = (props) => {
         } `}
       >
         <Link
-          to={`${location.pathname === "/" ? "product/:id" : "product/:id"}`}
+          // to={`${location.pathname === "/" ? "product/:id" : "product/:id"}`}
+          to="/"
           className="product-card position-relative"
         >
           {/* wishlist icon */}
