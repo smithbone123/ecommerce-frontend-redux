@@ -33,7 +33,7 @@ function App() {
             {/* Home page */}
             <Route index element={<Home />} />
             {/* Store page */}
-            <Route path="store" element={<OurStore />} />
+            <Route path="stores" element={<OurStore />} />
             {/* Single Product page */}
             <Route path="product/:id" element={<SingleProduct />} />
             {/* About page */}
