@@ -71,7 +71,7 @@ function App() {
             {/* Checkout page */}
             <Route path="checkout" element={<Checkout />} />
             {/* NotFound page */}
-            <Route path="/*" element={<NotFound />} />
+            {/* <Route path="/*" element={<NotFound />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
