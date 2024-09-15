@@ -99,7 +99,7 @@ const Home = () => {
         <div className="row">
           <div className="col-12">
             <div className="services d-flex align-items-center justify-content-between">
-              {/* Fetchig the data */}
+              {/* Fetching the data */}
               {services?.map((i, j) => {
                 return (
                   <div className="d-flex align-items-center gap-15" key={j}>
@@ -111,7 +111,7 @@ const Home = () => {
                   </div>
                 );
               })}
-              {/* Fetchig the data */}
+              {/* Fetching the data */}
             </div>
           </div>
         </div>
