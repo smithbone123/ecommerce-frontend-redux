@@ -33,7 +33,7 @@ function App() {
             {/* Home page */}
             <Route index element={<Home />} />
             {/* Store page */}
-            <Route path="stores" element={<OurStore />} />
+            <Route path="store" element={<OurStore />} />
             {/* Single Product page */}
             <Route path="product/:id" element={<SingleProduct />} />
             {/* About page */}
@@ -71,7 +71,7 @@ function App() {
             {/* Checkout page */}
             <Route path="checkout" element={<Checkout />} />
             {/* NotFound page */}
-            {/* <Route path="/*" element={<NotFound />} /> */}
+            <Route path="/*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
